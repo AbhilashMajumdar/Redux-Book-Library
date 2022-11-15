@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+.row{
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+
+/* page container  */
+.page-container{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar  */
+.navbar .navbar-brand{
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 0.2ch;
+  font-weight: 600;
+}
+
+.navbar .nav-link{
+  font-size: 18px;
+}
+
+/* home-container  */
+.home-container{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container h1{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 0.2ch;
+  font-size: 60px;
+}
+
+
+/* add-book  */
+.add-book{
+  padding: 40px !important;
+}
+
+.add-book h1{
+  font-family: 'Lobster', cursive;
+}
+
+/* view all books  */
+.all-books{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.card-img{
+  /* width: 100px; */
+  height: 300px;
+}
+
+.card{
+  width: 19rem;
+  /* text-align: center; */
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+  /* border: 1px solid gray !important; */
+}
+
+.card-des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover{
+  /* transform: scale(1.1, 1.1); */
+}
+
+
+/* book-image  */
+.book-img img{
+  width: 500px;
+  height: 550px;
+}
